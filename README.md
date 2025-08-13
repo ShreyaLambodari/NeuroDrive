@@ -1,45 +1,45 @@
-🧠 NeuroDrive
-Driver Fatigue Detection & Safety Alert System
+## 🧠 NeuroDrive - "Your Co-Pilot for Safety"
+*Driver Fatigue Detection & Safety Alert System*
+
 Real-time drowsiness detection and alerting using OpenCV & Pygame.
 
-🚀 Overview
+## 🚀 Overview
+
 NeuroDrive is an AI-assisted driver monitoring system that uses computer vision to track eye blinks, yawns, and gaze direction to detect signs of fatigue.
 When drowsiness is detected, the system triggers alerts to keep the driver awake and focused.
 
-✨ Features
-Blink detection — track eye closure frequency.
+## ✨ Features
+*Blink detection* — track eye closure frequency.
 
-Yawn detection — detect mouth openings associated with fatigue.
+*Yawn detection* — detect mouth openings associated with fatigue.
 
-Gaze estimation — monitor if the driver’s attention drifts away from the road.
+*Gaze estimation* — monitor if the driver’s attention drifts away from the road.
 
-Real-time alerts — sound notifications and visual warnings using Pygame.
+*Real-time alerts* — sound notifications and visual warnings using Pygame.
 
-Customizable thresholds — tweak sensitivity via the config file.
+*Customizable thresholds* — tweak sensitivity via the config file.
 
-🛠 Tech Stack
-Languages: Python
+## 🛠 Tech Stack
+**Languages: Python**
 
-Libraries Used:
+*Libraries Used:*
 
-opencv-python — image capture & processing
+**opencv-python — image capture & processing**
 
-pygame — sound alerts
+**pygame — sound alerts**
 
-numpy — numerical processing
+**numpy — numerical processing**
 
-math — geometric calculations
+**math — geometric calculations**
 
-json — reading/writing structured config
+**json — reading/writing structured config**
 
-os, time — system utilities & timing
+**os, time — system utilities & timing**
 
-collections.deque — frame buffering for smooth detection
+**collections.deque — frame buffering for smooth detection**
 
-📂 Project Structure
-bash
-Copy
-Edit
+## 📂 Project Structure
+
 NeuroDrive/
 │
 ├── alerts/                # Alert management logic
@@ -73,25 +73,21 @@ NeuroDrive/
 │
 ├── main.py                  # Main application entry point
 └── .gitignore
-⚙️ Installation & Usage
+
+
+## ⚙️ Installation & Usage
 Clone the repository
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/NeuroDrive.git
 cd NeuroDrive
 Install dependencies
 
-bash
-Copy
-Edit
+
 pip install opencv-python pygame numpy
 Run the main application
 
-bash
-Copy
-Edit
+
 python main.py
 📊 How It Works
 mermaid
@@ -106,12 +102,14 @@ flowchart LR
     Yawn --> AlertSystem
     Gaze --> AlertSystem
     AlertSystem --> Pygame[Sound Alert]
-🌟 Future Plans
-GUI for adjusting detection thresholds.
 
-Logging fatigue events with timestamps.
+    
+## 🌟 Future Plans
+**GUI for adjusting detection thresholds.**
 
-Support for multiple camera angles.
+**Logging fatigue events with timestamps.**
 
-Integration with external hardware (buzzers, vibration motors).
+**Support for multiple camera angles.**
+
+**Integration with external hardware (buzzers, vibration motors).**
 
