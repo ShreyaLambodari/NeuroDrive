@@ -22,7 +22,7 @@ When drowsiness is detected, the system triggers alerts to keep the driver awake
 ## 🛠 Tech Stack
 **Languages: Python**
 
-*Libraries Used:*
+**Libraries Used:**
 
 **opencv-python — image capture & processing**
 
