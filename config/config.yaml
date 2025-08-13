@@ -1,0 +1,14 @@
+fps: 20
+frame_width: 640
+frame_height: 480
+
+ear_threshold: 0.23
+ear_consec_frames: 3
+
+perclos_window_s: 60
+perclos_thresh: 0.40
+
+prebuffer_s: 8
+postbuffer_s: 6
+
+event_cooldown_s: 12
